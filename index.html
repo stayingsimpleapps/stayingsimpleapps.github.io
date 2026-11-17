@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Staying Simple Apps</title>
+<style>
+  :root { --bg: #f6f7f9; --fg: #1d2330; --muted: #5a6475; --accent: #0b7a5a; --card: #ffffff; --line: #e1e5eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14171c; --fg: #e6e9ee; --muted: #a3acb9; --accent: #4fd1a5; --card: #1c2027; --line: #2c323c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  .meta { color: var(--muted); margin: 0 0 32px; }
+  .app { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+  .app h2 { font-size: 1.15rem; margin: 0 0 4px; }
+  .app p { margin: 0 0 8px; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Staying Simple Apps</h1>
+  <p class="meta">Small, offline-first apps that do one job well.</p>
+
+  <div class="app">
+    <h2>Amortiq</h2>
+    <p>Loan and EMI calculator: compare offers, plan prepayments and track your loans. Your data stays on your device.</p>
+    <a href="amortiq/privacy.html">Privacy policy</a>
+  </div>
+
+  <footer>Contact: <a href="mailto:stayingsimple.apps@gmail.com">stayingsimple.apps@gmail.com</a></footer>
+</main>
+</body>
+</html>
