@@ -1,1 +1,9 @@
 .DS_Store
+
+# Taste skill machinery — never publish to the site
+.agents/
+.claude/
+skills-lock.json
+skills-lock.json.*
+.taste-skill/
+shots/
