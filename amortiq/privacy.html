@@ -33,7 +33,7 @@
 <body>
 <main>
   <h1>Amortiq Privacy Policy</h1>
-  <p class="meta">Effective date: 17 November 2026</p>
+  <p class="meta">Effective date: 20 November 2026</p>
 
   <div class="summary">
     <p><strong>Short version.</strong> Amortiq has no accounts and no servers. The loan details you enter stay on
@@ -47,8 +47,8 @@
 
   <h2>Information you enter</h2>
   <p>To calculate EMIs, compare offers and track loans, you enter details such as a loan name, amount, interest rate,
-  tenure, start date, fees and extra payments. The app also stores your settings, such as your currency and light or dark
-  theme.</p>
+  tenure, start date, fees, rate changes and extra payments. The app also stores your settings, such as your currency
+  and light or dark theme.</p>
   <ul>
     <li>All of this is stored only in the app's private storage on your device.</li>
     <li>It is never uploaded to us or to anyone else. We have no server and cannot see, recover or delete it for you.</li>
@@ -97,9 +97,10 @@
   </div>
 
   <h2>Security</h2>
-  <p>Your data is kept in the app's private storage, which other apps can't read. Modern Android and iOS devices also
-  encrypt this storage when the device is locked. Use a screen lock to keep it protected, and keep your device's
-  software up to date.</p>
+  <p>Your loan database is encrypted on your device with AES-256 (SQLCipher). The encryption key is generated on your
+  device and held in the device's secure keystore (Android Keystore / iOS Keychain), not inside the database file. It is
+  also kept in the app's private storage, which other apps can't read, and modern Android and iOS devices encrypt this
+  storage when the device is locked. Use a screen lock to keep it protected, and keep your device's software up to date.</p>
 
   <h2>Keeping and deleting your data</h2>
   <p>Your data stays on your device until you delete it. You can delete a loan in the app at any time. Uninstalling the
